@@ -211,9 +211,51 @@ h1,h5{
         }
     }
     .more_case_studies {
-        padding-block: 0 80px;
+        padding-block: 80px 80px;
         h1 {
             margin-bottom: 30px;
+        }
+        .cardr {
+            width: 100%;
+            min-height: 254px;
+            background-image: linear-gradient(163deg, #01fcaf 0%, #01fcaf 100%);
+            border-radius: 20px;
+            transition: all .3s;
+            cursor: pointer;
+        }
+           
+        .cardr2 {
+            width: 100%;
+            min-height: 254px;
+            background-color: var(--color-blue);
+            transition: all .2s;
+            padding: 30px 30px 60px 30px;
+            color: var(--color-white);
+            position: relative;
+            h2{
+                font-weight: 400;
+                font-size: 20px;
+            }
+            .case-studies-btn {
+                position: absolute;
+                bottom: 30px;
+                left: 30px;
+                img{
+                    filter: grayscale(100%);
+                }
+            }
+            p{
+                color: var(--color-green);
+            }
+        }
+        
+        .cardr2:hover {
+        transform: scale(0.98);
+        border-radius: 20px;
+        }
+        
+        .cardr:hover {
+        box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
         }
         .card_wrapper {
             border: 2px solid #000;

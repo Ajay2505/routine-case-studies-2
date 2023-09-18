@@ -194,10 +194,49 @@ h1, h5 {
   font-weight: 600;
 }
 .data_quality .more_case_studies {
-  padding-block: 0 80px;
+  padding-block: 80px 80px;
 }
 .data_quality .more_case_studies h1 {
   margin-bottom: 30px;
+}
+.data_quality .more_case_studies .cardr {
+  width: 100%;
+  min-height: 254px;
+  background-image: linear-gradient(163deg, #01fcaf 0%, #01fcaf 100%);
+  border-radius: 20px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.data_quality .more_case_studies .cardr2 {
+  width: 100%;
+  min-height: 254px;
+  background-color: var(--color-blue);
+  transition: all 0.2s;
+  padding: 30px 30px 60px 30px;
+  color: var(--color-white);
+  position: relative;
+}
+.data_quality .more_case_studies .cardr2 h2 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.data_quality .more_case_studies .cardr2 .case-studies-btn {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+.data_quality .more_case_studies .cardr2 .case-studies-btn img {
+  filter: grayscale(100%);
+}
+.data_quality .more_case_studies .cardr2 p {
+  color: var(--color-green);
+}
+.data_quality .more_case_studies .cardr2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+.data_quality .more_case_studies .cardr:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
 }
 .data_quality .more_case_studies .card_wrapper {
   border: 2px solid #000;
